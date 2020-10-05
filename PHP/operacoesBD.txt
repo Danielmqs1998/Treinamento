@@ -1,0 +1,11 @@
+<?php
+
+$nomeservidor = "localhost";
+$usuario = "root";
+$senha = "";
+
+
+
+
+
+?>

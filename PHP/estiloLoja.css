@@ -1,0 +1,153 @@
+body{margin: 0;}
+header
+{
+    background-color: rgb(100, 39, 11);
+    top: 0;
+    height: 100px;  
+}
+footer
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+h1
+{
+    font-family: 'Dancing Script', cursive;
+    float: left;
+    font-size: 60px;
+    margin: 0;
+    padding: 10px 10px;
+    color: saddlebrown;
+}
+#areaMenu
+{
+    width: 150px;
+    height: 100px;
+    float:right;
+    margin-right: 20px;
+}
+ul
+{
+    float: right;
+    margin: 0;
+    width: 150px;
+    height: 50px;
+}
+ul li
+{    
+    display: inline-block;
+    color: white;
+    margin: 15px 0;
+}
+a, a:visited
+{
+    padding: 5px;
+    color: white;
+}
+a:hover
+{
+    background-color: chocolate;
+}
+#carrinho
+{
+    width: 30px;
+    height:20px;
+    float: right;
+    background-color: white;    
+    border-radius:50px;
+}
+#conta img
+{
+    border: none;
+}
+
+#pesquisar
+{
+    margin: 20px;
+    height: 50px;
+    width:1000px;
+    background-color:saddlebrown;
+    border-radius:5px;
+    resize: vertical;
+}
+
+#pesquisar input[type="text"]
+{
+    margin: 15px;
+    width: 500px; 
+    resize: horizontal;
+}
+#areaItens
+{
+    display: inline-block;
+    height: 600px;
+    width: 1050px;
+    background-color: rgb(112, 74, 58);  
+    margin: 20px;
+}
+#itens
+{
+    display: inline-block;
+    margin: 20px;
+    height: 320px;
+    width: 180px;
+    background-color: rgb(100, 39, 11);
+    border-radius: 5px;  
+}
+#itens:hover
+{
+    transition: 2s;
+    background-color: chocolate;
+}
+
+#itens p
+{
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#itens img
+{  
+    border-radius: 5px;
+    margin: 5px 0px 0px 40px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+#itens input, #btnAplicar
+{ 
+    width: 170px;
+    height: 25px;
+    margin: 5px;
+    border: none;
+    color: white;
+    background-color: saddlebrown;
+}
+
+#filtros
+{
+    float:left;
+    margin: 20px;
+    height: 500px;
+    background-color: rgb(100, 39, 11);
+    font-family: 'Lobster', cursive;
+    width: 180px;
+    color: white;
+    border-radius: 5px;
+}
+
+#filtros p
+{
+    margin: 5px;
+    display: inline-block;
+    width: 140px;
+}
+
+
+
