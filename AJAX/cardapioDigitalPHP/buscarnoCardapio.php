@@ -33,7 +33,7 @@ if ($q !== "") {
     }
   }
   
-  // Output "no suggestion" if no hint was found or output correct values
+  // Caso não tenha nenhum dos pratos mencionados.
   echo $hint === "" ? "sem opções..." : $hint;
  
 ?>
