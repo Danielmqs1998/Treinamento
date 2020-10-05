@@ -1,8 +1,19 @@
 <?php
 
 $a[] = "Arroz com Feijão";
-$a[] = "Macarronada";
 $a[] = "Arroz com Cenoura";
+$a[] = "Macarronada";
+$a[] = "Banana";
+$a[] = "Beringela";
+$a[] = "Camarão";
+$a[] = "Carambola";
+$a[] = "Espinafre ";
+$a[] = "Feijoada";
+$a[] = "Suco de pêssego";
+$a[] = "Suco de limão";
+$a[] = "Suco de frutas vermelhas";
+$a[] = "Yogurt";
+
 
 $q = $_REQUEST["q"];
 
@@ -23,6 +34,6 @@ if ($q !== "") {
   }
   
   // Output "no suggestion" if no hint was found or output correct values
-  echo $hint === "" ? "no suggestion" : $hint;
+  echo $hint === "" ? "sem opções..." : $hint;
  
 ?>
