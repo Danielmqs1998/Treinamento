@@ -1,0 +1,85 @@
+.body
+{
+	background-color: rgb(150,150,150);
+}
+
+
+.formulario 
+{
+	position: center;
+}
+
+h1
+{
+	text-align: center;
+	font-family: 'Coiny', cursive;
+}
+
+p, li
+{
+	text-align: center;
+	font-family: 'Righteous', cursive;
+
+}
+
+#seletor-cores
+{
+	clear: both;
+	background-color: rgb(20,150,200);
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-family: 'Righteous', cursive;
+	font-size: 14px;
+}
+
+#form1
+{
+	display:inline-block;
+	clear: both;
+	background-color: rgb(20,150,200);
+	width: 180px;
+	height: 355px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 480px;
+	float:left;
+}
+
+#form1 input
+{
+	margin: auto;
+}
+#form2
+{
+	display:inline-block;
+	clear: both;
+	background-color: rgb(20,150,200);
+	width: 180px;
+	height: 355px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#res
+{
+	font-size: 20px;
+	margin: 0;
+}
+.botoes
+{
+	float: left;
+	display: block;
+	margin: 8 0 0 16; 
+	border: 0;
+	border-radius: 5px;
+	width: 140px;
+	height: 20px;
+}
+
+.botoes:hover
+{
+	color: aabbf3;
+}

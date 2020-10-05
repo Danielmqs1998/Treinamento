@@ -1,0 +1,43 @@
+<!HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Site</title>
+		<link type="text/css" rel="stylesheet" href="css/arquivoCSS.css">
+		<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	</head>
+<body>
+<h1> CALCULADORA JAVASCRIPT </h1>
+<div id="seletor-cores">
+	<form>
+		<p> SELECIONE UMA COR </p>
+		<input type="radio" name="cor" checked="true" onclick="mudarcor1()">AZUL<br>
+		<input type="radio" name="cor" onclick="mudarcor2()">VERDE<br>
+		<input type="radio" name="cor" onclick="mudarcor3()">LARANJA<br>
+	</form>
+</div>
+<div id="form1">
+	<form>
+		<p>Número um:</p>
+		<input type="number" id="numa" onchange="mudarcor()">
+		<br>
+		<p>Número dois:</p>
+		<input type="number" id="numb">
+		<p>Resultado:<p id="res"></p></p>
+	</form>
+	<button class="botoes" onclick="soma()">SOMA</button></br>
+	<button class="botoes" onclick="sub()">SUBTRAÇÃO</button></br>
+	<button class="botoes" onclick="mult()">MULTIPLICAÇÃO</button></br>
+	<button class="botoes" onclick="div()">DIVISÃO</button></br>
+</div>
+<div id="form2">
+	<form>
+		<p>Resultados:<p id="res"></p></p>
+		<ul style="list-style-type: none;" id="listares">	
+		</ul>	
+	</form>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
