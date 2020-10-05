@@ -1,0 +1,26 @@
+h1,h2
+{
+    text-align:center;
+}
+#opcao:hover
+{
+    background-color: rgb(54, 123, 179);
+    transition: 2s;
+}
+p
+{
+    display: inline-block;
+}
+#sugestoes
+{
+    display: block;
+}
+#cardapio 
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 500px;
+    height: 300px;
+    background-color: turquoise;
+    margin: 0 auto;
+}
