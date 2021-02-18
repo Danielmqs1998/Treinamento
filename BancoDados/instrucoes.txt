@@ -1,0 +1,1 @@
+Utilize o phpmyadmin e a opção importar para usar o banco de dados da loja MusicalStrings.
