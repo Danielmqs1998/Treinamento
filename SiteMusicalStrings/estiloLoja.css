@@ -1,0 +1,213 @@
+body{margin: 0;}
+header
+{
+    background-color: rgb(100, 39, 11);
+    top: 0;
+
+}
+footer
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: saddlebrown;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+}
+h1
+{
+    font-family: 'Dancing Script', cursive;
+    float: left;
+    font-size: 320%;
+    margin: 2%;
+    color: saddlebrown;
+}
+h2  
+{
+    background-color: rgba(138, 73, 0, 0.5);
+    width: 40%;
+    margin: 5%;
+    padding: 2%;
+    text-shadow: 2px 2px black;
+    color: white;
+    /* height: 50%; */
+    /* float:left; */
+    position: absolute;
+    font-size: 2vw;
+    right: 0;
+    text-align:justify;
+    border-radius: 5px;
+}
+
+#areaMenu
+{
+    width: 150px;
+    height: 100px;
+    float:left;
+    margin-right: 20px;
+}
+ul
+{
+   
+/* margin: 0; */
+}
+#botoesConta
+{
+    display: inline-block;
+    /* margin: 15px 0; */
+    /* float: right; */
+    /* position: absolute; */
+    /* width: 20%; */
+    right: 0;
+    margin-left: 15%;    
+}
+#botoesConta input, #botoesConta form
+{
+    border:none;
+    background-color:transparent;
+    outline:none;
+    display: inline-block;
+    color: white;
+}
+#botoesMenu 
+{
+    margin:0;
+    margin-bottom:3%;
+    width: 25%;
+    margin-left: 10%;
+    display: inline-block;
+}
+#botoesMenu a
+{
+
+border-radius: 5px;
+
+background-color: rgba(168, 93, 7, 0.938);
+}
+#botoesMenu a:hover
+{
+    background-color: chocolate;
+}
+ul li
+{
+    display: inline-block;
+    color: white;
+    margin: 2%;
+    width: ;
+    border-radius: 5px;
+}
+a, a:visited
+{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: chocolate;
+}
+#carrinho
+{
+    /* width: 30px; */
+    height:20px;
+    float: right;
+    background-color: white;
+    border-radius:50px;
+}
+#conta img
+{
+    border: none;
+    background-color: white;
+    margin: -5%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#pesquisar
+{
+    margin: 20px;
+
+    width:80%;
+    background-color:saddlebrown;
+    border-radius:5px;
+    resize: vertical;
+}
+
+#pesquisar input[type="text"]
+{
+    margin: 15px;
+    width:60%;
+    resize: horizontal;
+}
+#areaItens
+{
+    display: inline-block;
+    width: 80%;
+    
+}
+#itens
+{
+    float:left;
+    margin: 20px;
+    height: 320px;
+    width: 180px;
+    background-color: rgb(100, 39, 11);
+    border-radius: 5px;  
+}
+#itens:hover
+{
+    transition: 2s;
+    background-color: chocolate;
+}
+
+#itens p
+{
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+#desc
+{
+    margin: 18%;
+}
+
+#itens img
+{  
+    border-radius: 5px;
+    margin: 5px 0px 0px 40px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+#itens input, #btnAplicar
+{ 
+    width: 170px;
+    height: 25px;
+    margin: 5px;
+    border: none;
+    color: white;
+    background-color: saddlebrown;
+}
+
+#filtros
+{
+    float:left;
+    margin: 20px;
+    background-color: rgb(100, 39, 11);
+    font-family: 'Lobster', cursive;
+    width: 180px;
+    color: white;
+    border-radius: 5px;
+}
+
+#filtros p
+{
+    margin: 5px;
+    display: inline-block;
+    width: 140px;
+}
+
+
+
