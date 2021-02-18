@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        echo "teste";
+        echo " ";
     ?>
     <div id='login'>
         <form action="lojausuario.php" method="POST" >
